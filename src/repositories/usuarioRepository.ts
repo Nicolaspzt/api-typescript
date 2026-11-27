@@ -56,4 +56,4 @@ async function updateUsuario(id: number, dadosUsuario: Usuario): Promise<Usuario
   })
 }
 
-export default { getUsuario, getAllUsuarios, addUsuario, deletUsuario};
+export default { getUsuario, getAllUsuarios, addUsuario, deletUsuario, updateUsuario};
